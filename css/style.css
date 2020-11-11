@@ -26,23 +26,34 @@ header {
 .nav-left {
   width: 600px;
   height: 60px;
-  border: 4px solid green;
+  margin-top: 10px;
+  /* border: 4px solid green; */
+}
+.logo {
+  margin-right: 20px;
 }
 
 .nav-right {
   width: 400px;
   height: 60px;
-  border: 4px solid lightgreen;
+  margin-top: 10px;
+  /* border: 4px solid lightgreen; */
 }
-
 
 li {
   display: inline-block;
   line-height: 60px;
+  /* padding: 0 5px; */
+  margin-left: 10px;
 }
 
 
 /* utility */
+
+.inline-block{
+  display: inline-block;
+}
+
 .centering {
   margin: 0 auto;
 }
@@ -76,7 +87,7 @@ li {
 .deco {
   text-decoration: none;
   color: white;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .uppercase {
@@ -91,15 +102,24 @@ li {
 
 .button {
   color: white;
-  padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .green {
   background-color: #7CBB02;
+  padding: 10px;
+}
+
+.transparent {
+
+}
+
+.btn-style {
+  border: 1px solid white;
+  padding: 10px 25px;
 }
 
 /* /utility */
