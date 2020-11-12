@@ -6,7 +6,6 @@
 
 .main-container {
   width: 1200px;
-  background: #0C325A;
   /* border: 4px solid black; */
 }
 
@@ -18,6 +17,7 @@ header {
 
 .bkgrd-container {
   height: 500px;
+  background: #0C325A;
   /* border: 2px solid red; */
 }
 
@@ -103,11 +103,22 @@ span {
 }
 
 .main-content {
-  background-color: #fff;
+ width: 1200px;
+ background-color: #eee;
+}
+
+.box-container {
+  width: 1000px;
+}
+
+.box {
+  width: 33%;
+  /* height: 200px; */
+  border: solid black;
 }
 
 .box:nth-child(1n+1) {
-  width: 25%;
+  /* width: 100%; */
   color: #7CBB02;
   font-size: 25px;
   padding: 20px;
@@ -195,10 +206,6 @@ SONO RIMASTO QUI
   padding: 10px 25px;
 }
 
-.box {
-  width: 400px;
-  height: 200px;
-  border: solid black;
-}
+
 
 /* /utility */
