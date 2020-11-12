@@ -108,14 +108,28 @@ span {
  border-bottom: 1px solid lightgrey;
 }
 
+.submain-content {
+  width: 1200px;
+  border-bottom: 1px solid lightgrey;
+}
+
 .box-container {
   width: 1000px;
  }
 
+.subox-container {
+  width: 1000px;
+  padding: 20px 0;
+}
+
 .box {
-  padding: 20px;
+  /* padding: 20px; */
   width: 33.33%;
   margin-bottom: 30px;
+}
+
+.right {
+  margin-right: 100px;
 }
 
 .box-img1 {
@@ -138,6 +152,15 @@ span {
   height: 150px;
   background-image: url(../img/doc.svg);
   background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box-img4 {
+  width: 450px;
+  height: 350px;
+  background-image: url(../img/mountain.svg);
+  /* background-size: 100%; */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -167,6 +190,28 @@ h4 {
   text-align: center;
   font-size: 16px;
   color: grey;
+}
+
+h5 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 16px;
+  color: grey;
+}
+
+footer{
+  width: 1200px;
+  height: 100px;
+  background-color: #D3D3D3;
+}
+
+.foot {
+  text-align: left bottom;
+  font-size: 30px;
 }
 
 SONO RIMASTO QUI
