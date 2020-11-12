@@ -6,19 +6,16 @@
 
 .main-container {
   width: 1200px;
-  /* border: 4px solid black; */
 }
 
 header {
   width: 1200px;
   height: 500px;
-  /* border: 4px solid black; */
 }
 
 .bkgrd-container {
   height: 500px;
   background: #0C325A;
-  /* border: 2px solid red; */
 }
 
 .bkgrd {
@@ -34,14 +31,12 @@ header {
 .header-content {
   width: 1000px;
   height: 300px;
-  /* border: solid white; */
 }
 
 .nav-left {
   width: 600px;
   height: 60px;
   margin-top: 10px;
-  /* border: 4px solid green; */
 }
 .logo {
   margin-right: 20px;
@@ -52,7 +47,6 @@ header {
   width: 400px;
   height: 60px;
   margin-top: 10px;
-  /* border: 4px solid lightgreen; */
 }
 
 .nav {
@@ -104,13 +98,11 @@ span {
 
 .main-content {
  width: 1200px;
- /* background-color: #eee; */
  border-bottom: 1px solid lightgrey;
 }
 
 .submain-content {
   width: 1200px;
-  border-bottom: 1px solid lightgrey;
 }
 
 .box-container {
@@ -160,7 +152,6 @@ span {
   width: 450px;
   height: 350px;
   background-image: url(../img/mountain.svg);
-  /* background-size: 100%; */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -205,13 +196,33 @@ h6 {
 
 footer{
   width: 1200px;
-  height: 100px;
+  height: 150px;
   background-color: #D3D3D3;
+  margin-bottom: 20px;
 }
 
-.foot {
-  text-align: left bottom;
+.foot-l {
+  display: inline-block;
+  line-height: 150px;
+  padding-left: 100px;
   font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+.foot-r {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+select {
+  margin-left: 10px;
+}
+
+.foot-button {
+  margin: 50px ;
+  display: inline-block;
+  font-weight: bolder;
 }
 
 SONO RIMASTO QUI
